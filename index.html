@@ -6,37 +6,105 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
-
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
-
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
 </head>
 <body>
-  <div class="top">
-    <img src="images/logo.svg" class="logo" alt="logo-img">
-    <div class="toplinks">
-      <p class="features">Features</p>
-      <p class="team">Team</p>
-      <p class="signin">Sign In</p>
-    </div>
+  <div class="header">
+      <img src="images/logo.svg" class="logo" alt="">
+      <div class="navigation">
+        <a href="#" class="features">Features</a>
+        <a href="#" class="team">Team</a>
+        <a href="#" class="signin">Sign In</a>
+      </div>
   </div>
-  <div class="mid">
-    <div class="textcontainer">
-      <div class="text">
+  <div class="introcontainer">
+    <div class="intro">
+      <img src="images/illustration-intro.png" alt="">
+      <div class="introtext">
         <h1>All your files in one secure location, accesible anywhere.</h1>
-        <p>Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
-        <form class="email" action="index.html" method="post">
-          <input type="email" name="" value="Enter your email...">
-          <input type="button" name="" value="Get Started">
-        </form>
+        <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends, family, and co-workers.</p>
+        <a href="#" class="butn">Get Started</a>
       </div>
     </div>
-    <div class="imgcontainer">
-      <img src="images/illustration-1.svg" class="img" alt="">
+    <img src="images/bg-curvy-desktop.svg" class="divider" alt="">
+  </div>
+
+  <div class="midcontainer">
+    <div class="mid">
+      <div class="firstlogo">
+
+        <div class="firstlogotext">
+          <img src="images/icon-access-anywhere.svg" alt="">
+          <h2>Access your files, anywhere.</h2>
+          <p>The ability to use a smarthpone, tablet, or computer to access your account means your files follow you everywhere.</p>
+        </div>
+      </div>
+      <div class="secondlogo">
+
+        <div class="secondlogotext">
+          <img src="images/icon-security.svg" alt="">
+          <h2>Security you can trust</h2>
+          <p>2- factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
+        </div>
+      </div>
+      <div class="thirdlogo">
+
+        <div class="thirdlogotext">
+          <img src="images/icon-collaboration.svg" alt="">
+          <h2>Real-time collaboration</h2>
+          <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+        </div>
+      </div>
+      <div class="fourthlogo">
+
+        <div class="fourthlogotext">
+          <img src="images/icon-any-file.svg" alt="">
+          <h2>Store any type of file</h2>
+          <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
+        </div>
+      </div>
     </div>
   </div>
+  <div class="botcontainer">
+    <div class="bot">
+      <img src="images/illustration-stay-productive.png" alt="">
+      <div class="bottext">
+        <h1>Stay productive, <br />wherever you are</h1>
+        <p>Never let location be an issue when accesing your files. Fylo has you covered for all of your storage needs.</p>
+        <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+        <a class="fyloworks"href="#">See how Fylo works <img src="images/icon-arrow.svg"  class="fyloarrow" alt=""> </a>
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
+
 </body>
+<footer>
+  <div class="footercontainer">
+      <div class="firstfoot">
+        <ion-icon class="pinicon"name="pin"></ion-icon>
+        <img src="images/logo.svg" class="fylogo" alt="">
+          <p class="footlogotext" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="secondfoot">
+        <ion-icon name="call" class="phoneicon"></ion-icon>
+        <p class="phone">+54-0358-154-7881</p>
+        <ion-icon name="mail" class="emailicon"></ion-icon>
+        <p class="email">arzautignacio@gmail.com</p>
+      </div>
+      <div class="thirdfoot">
+        <div class="thirdfoottext">
+          <p>About Us</p>
+          <p>Jobs</p>
+          <p>Press</p>
+          <p>Blog</p>
+        </div>
+
+      </div>
+      <div class="fourthfoot">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+  </div>
+</footer>
 </html>

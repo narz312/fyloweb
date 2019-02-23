@@ -1,105 +1,312 @@
 body{
   margin: 0;
+  background-color: hsl(217, 28%, 15%);
 }
-.top{
-  margin-top: 50px;
+
+h1, h2{
+  font-family: 'Raleway', sans-serif;
+}
+
+p, a{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+}
+
+.header{
+  height: 130px;
+  width: 100%;
   position: relative;
 }
+
 .logo{
-  margin-left: 80px;
-}
-.signin{
   position: absolute;
-  right: 0;
-  display: inline-block;
-  width: 70px;
-  text-align: center;
+  left: 80px;
+  bottom: 0;
 }
+
+.navigation{
+  display: block;
+  text-align: right;
+  position: absolute;
+  top: 95px;
+  right: 80px;
+  font-family: "Raleway", sans-serif;
+}
+
 .features{
   display: inline-block;
-  position: absolute;
-  right: 100px;
-  width: 70px;
-  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-right:  50px;
 }
+
 .team{
   display: inline-block;
-  position: absolute;
-  right: 200px;
-  width: 70px;
-  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin-right:  50px;
 }
-.toplinks{
+
+.signin{
   display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+
+
+.introcontainer{
+  text-align:center;
+  padding-bottom: 200px;
+  position: relative;
+}
+
+.intro{
+  display: inline-block;
+  margin: 50px auto 0 auto;
+}
+
+.introtext{
+  width: 45%;
+  margin: 0 auto 0 auto;
+  color: white;
+}
+
+.butn {
+  margin-top: 15px;
+  display: inline-block;
+  background: #00ccff;
+  background-image: -webkit-linear-gradient(top, #00ccff, #0084d6);
+  background-image: -moz-linear-gradient(top, #00ccff, #0084d6);
+  background-image: -ms-linear-gradient(top, #00ccff, #0084d6);
+  background-image: -o-linear-gradient(top, #00ccff, #0084d6);
+  background-image: linear-gradient(to bottom, #00ccff, #0084d6);
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 15px 90px 15px 90px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.divider{
   position: absolute;
-  right: 100px;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  left: 0;
+}
+.midcontainer{
+  text-align: center;
+  background-color: hsl(218, 28%, 13%);
 }
 
 .mid{
-  margin-top: 200px;
+  display: inline-block;
   position: relative;
+  margin: 50px auto 0 auto;
+  width: 1200px;
+  height: 700px;
+  color: white;
+  margin-top: 0;
 }
-.imgcontainer{
-  position: absolute;
+
+.firstlogo{
   width: 50%;
-  height: 100%;
+    display: inline-block;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.secondlogo{
+  width: 50%;
+    display: inline-block;
+  height: 50%;
+  position: absolute;
   right: 0;
   top: 0;
 }
-.img{
-  width: 90%;
-  margin-top: -100px;
-}
-.textcontainer{
+.thirdlogo{
   width: 50%;
-}
-.text{
-  width: 65%;
-  text-align: left;
-  font-size: 120%;
-  margin: 0 0 0 80px;
-  font-weight: lighter;
-}
-
-h1{
-  font-family: "Raleway";
-}
-
-p{
-  font-family: "Open Sans";
-}
-
-a{
-  font-family: "Open Sans";
-  color: hsl(170, 45%, 43%);
-  text-decoration: none;
-  border-bottom: 1px solid ;
-  padding-bottom: 3px;
-}
-
-.arrow{
+    display: inline-block;
+  height: 50%;
   position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.fourthlogo{
+  width: 50%;
+  display: inline-block;
+  height: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.firstlogotext{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 70%;
   top: 0;
+}
+.secondlogotext{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 70%;
+  top: 0;
+
+}
+.thirdlogotext{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 70%;
+  top: 0;
+}
+.fourthlogotext{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 70%;
+  top: 0;
+}
+
+.botcontainer{
+  text-align: center;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.bot{
+  display: inline-block;
+}
+.bottext{
+  float: right;
+  width: 40%;
+  position: relative;
+  top: 100px;
+  right: 50px;
+  color: white;
+  text-align: left;
+}
+
+.fyloworks{
+  text-decoration: none;
+  color: hsl(176, 68%, 64%);
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.fyloarrow{
+  position: relative;
+  top: 3px;
+}
+
+.footercontainer{
+  height: 300px;
+  background-color: hsl(216, 53%, 9%);
+    position: relative;
+    color: white;
+}
+
+
+.firstfoot{
+  width: 22%;
+  display: inline-block;
+  position: absolute;
+  left: 3%;
+  top: 25%;
+  bottom: 25%;
+}
+
+.secondfoot{
+  width: 25%;
+  display: inline-block;
+  position: absolute;
+  bottom: 25%;
+  top: 25%;
+  left: 25%;
+}
+
+.thirdfoot{
+  width: 25%;
+  display: inline-block;
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  top: 25%;
+}
+
+.fourthfoot{
+  width: 22%;
+  display: inline-block;
+  position: absolute;
+  bottom: 25%;
+  top: 25%;
+  left: 75%;
+}
+
+.footlogotext{
+  width: 90%;
+  position: relative;
+  left: 40px;
+}
+
+.pinicon{
+
+  color: white;
+  float: left;
+  position: absolute;
+  bottom: 38%;
   left: 0;
 }
 
-input[type=email] {
-  border: 1px solid grey;
-  border-radius: 2px;
-  padding: 16px 85px;
+.phoneicon{
+
+  position: absolute;
+  bottom: 38%;
+  left: 30%;
+
 }
 
-input[type=email]:focus {
-  border: 1px solid blue;
+.phone{
+  margin: 0;
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+    transform: translate(-50%, 0);
 }
 
-input[type=button], input[type=submit], input[type=reset] {
-  background-color: #448ef6;
-  border: none;
-  color: white;
-  padding: 16px 55px;
-  text-decoration: none;
-  margin: 6px 10px;
-  cursor: pointer;
-  border-radius: 5%;
+.email{
+  position: absolute;
+  bottom: 10%;
+  margin: 0;
+  left: 59%;
+  transform: translate(-59.5%, 0);
+}
+
+.emailicon{
+  position: absolute;
+  bottom: 12%;
+  left: 30%;
+}
+
+.thirdfoottext{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 0;
+  bottom: 0;
 }
